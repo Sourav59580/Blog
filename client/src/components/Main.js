@@ -3,8 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
-  Link
+  Redirect
 } from "react-router-dom";
 import "./css/sidenavbar.css";
 import "./js/template.js";
@@ -16,6 +15,7 @@ import Comments from "./Comments";
 import Earnings from "./Earnings";
 import PostNew from "./PostNew";
 import Blog from "./Blog";
+import AllPosts from './AllPosts'
 export class Main extends Component {
   render() {
     return (
@@ -44,6 +44,9 @@ export class Main extends Component {
             <Redirect from='/newpost/' to="/blog" />
             <Route path="/blog">
                <Blog />
+            </Route>
+            <Route path="/allpost">
+              <AllPosts />
             </Route>
             
 

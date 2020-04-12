@@ -76,19 +76,23 @@ function Home() {
           {/* Recent communication between admin and Employee */}
 
            <div className='row mt-4' style={{height:'300px'}}>
-               <div className='col-6 bg-white border p-2'>
-                  <small>To</small>
-                  <h6 className='my-3'>ADMIN : </h6>
-                  <hr/> 
+               <div className='col-md-6 pl-md-0 p-1 mb-3'>
+                   <div className='bg-white border p-3'>
+                      <small>To</small>
+                      <h6 className='my-3'>ADMIN : </h6>
+                      <hr/> 
 
 
-                
+                   </div>                
                </div>
-               <div className='col-1'></div>
-               <div className='col-5 bg-white border p-2'>
-                  <small>From</small>
-                  <h6 className='my-3'>ADMIN : </h6>
-                  <hr/>
+               <div className='col-md-6 pr-md-0 p-1 mb-3'>
+               <div className='bg-white border p-3'>
+                      <small>To</small>
+                      <h6 className='my-3'>ADMIN : </h6>
+                      <hr/> 
+
+
+                   </div>  
 
 
                </div>
