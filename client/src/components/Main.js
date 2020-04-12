@@ -16,10 +16,11 @@ import Earnings from "./Earnings";
 import PostNew from "./PostNew";
 import Blog from "./Blog";
 import AllPosts from './AllPosts'
+import Settings from './Setting'
 export class Main extends Component {
   render() {
     return (
-      <div className="container-scroller" style={{height:'100vh',}}>
+      <div className="container-scroller" style={{height:'100vh'}}>
         <Navbar />
         <Router>
         <div class="container-fluid page-body-wrapper">
@@ -47,6 +48,9 @@ export class Main extends Component {
             </Route>
             <Route path="/allpost">
               <AllPosts />
+            </Route>
+            <Route path="/setting">
+              <Settings />
             </Route>
             
 

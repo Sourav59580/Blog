@@ -1,7 +1,7 @@
 import React from "react";
 function Blog() {
   return (
-    <div className="container-fluid p-4">
+    <div className="container-fluid p-4" style={{overflowY:'scroll',height:'100vh'}}>
       <div className="row">
         <div className="col-12 d-flex justify-content-between flex-wrap">
           <h4 className="text-danger mt-2 mr-4">Blog</h4>

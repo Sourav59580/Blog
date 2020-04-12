@@ -17,6 +17,7 @@ export default class AllPosts extends Component {
                                         <th>Published</th>
                                         <th>Views</th>
                                         <th>Status</th>
+                                        <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -26,6 +27,7 @@ export default class AllPosts extends Component {
                                         <td>12 May 2020</td>
                                         <td>5531</td>
                                         <td><label class="badge badge-danger">Pending</label></td>
+                                        <td><button className='btn btn-sm btn-primary'>Details</button></td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
@@ -33,6 +35,7 @@ export default class AllPosts extends Component {
                                         <td>15 May 2020</td>
                                         <td>531</td>
                                         <td><label class="badge badge-warning">In progress</label></td>
+                                        <td><button className='btn btn-sm btn-primary'>Details</button></td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
@@ -40,6 +43,7 @@ export default class AllPosts extends Component {
                                         <td>14 May 2020</td>
                                         <td>4531</td>
                                         <td><label class="badge badge-info">Fixed</label></td>
+                                        <td><button className='btn btn-sm btn-primary'>Details</button></td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
@@ -47,6 +51,7 @@ export default class AllPosts extends Component {
                                         <td>16 May 2020</td>
                                         <td>3531</td>
                                         <td><label class="badge badge-success">Completed</label></td>
+                                        <td><button className='btn btn-sm btn-primary'>Details</button></td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
@@ -54,6 +59,7 @@ export default class AllPosts extends Component {
                                         <td>20 May 2020</td>
                                         <td>531</td>
                                         <td><label class="badge badge-warning">In progress</label></td>
+                                        <td><button className='btn btn-sm btn-primary'>Details</button></td>
                                     </tr>
                                 </tbody>
                             </table>

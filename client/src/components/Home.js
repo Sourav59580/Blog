@@ -19,29 +19,35 @@ function Home() {
                 <div className='col-12 bg-white border'>
                     <h6 className='my-3'>Overview : </h6>
                     <hr className='m-0'/>
-                    <div className='row'>
-                        <div className='col-md-6 d-flex'>
+                    <div className='d-flex flex-wrap'>
+                            
+                            <div className='d-flex  flex-grow-1 align-items-center justify-content-center p-3 border-md-right'>
+                               <i class="mdi mdi-calendar-today mr-3 icon-lg text-danger"></i>
+                                <div class="d-flex flex-column justify-content-around">
+                                   <small class="mb-1 text-muted">Date</small>
+                                   <h5 class="mr-2 mb-0">12 Apr 2020</h5>
+                                </div>  
+                            </div>
+                            
 
-                            <div className='d-flex align-items-center   justify-content-center p-3 border-md-right'>
-                               <i class="mdi mdi-currency-usd mr-3 icon-lg text-danger"></i>
+                            <div className='d-flex align-items-center flex-grow-1 justify-content-center p-3 border-md-right'>
+                               <i class="mdi mdi-currency-usd mr-3 icon-lg text-primary"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                    <small class="mb-1 text-muted">Revenue</small>
                                    <h5 class="mr-2 mb-0">$577545</h5>
                                 </div>  
                             </div>
 
-                            <div class="d-flex border-md-right         flex-grow-1 align-items-center justify-content-center p-3 item">
+                            <div class="d-flex border-md-right flex-grow-1 align-items-center justify-content-center p-3 item">
                               <i class="mdi mdi-eye mr-3 icon-lg text-success"></i>
                               <div class="d-flex flex-column justify-content-around">
                                  <small class="mb-1 text-muted">Total views</small>
                                  <h5 class="mr-2 mb-0">9833550</h5>
                               </div>
                             </div>                         
-                        </div>
-                        <div className='col-md-6 d-flex'>
 
-                            <div className='d-flex align-items-center   justify-content-center p-3 border-md-right'>
-                               <i class="mdi mdi-download mr-3 icon-lg text-danger"></i>
+                            <div className='d-flex  flex-grow-1 align-items-center justify-content-center p-3 border-md-right'>
+                               <i class="mdi mdi-download mr-3 icon-lg text-warning"></i>
                                 <div class="d-flex flex-column justify-content-around">
                                    <small class="mb-1 text-muted">Downloads</small>
                                    <h5 class="mr-2 mb-0">577545</h5>
@@ -49,33 +55,21 @@ function Home() {
                             </div>
 
                             <div class="d-flex flex-grow-1 align-items-center justify-content-center p-3 item">
-                              <i class="mdi mdi-flag mr-3 icon-lg text-danger"></i>
+                              <i class="mdi mdi-flag mr-3 icon-lg text-info"></i>
                               <div class="d-flex flex-column justify-content-around">
                                  <small class="mb-1 text-muted">Flagged</small>
                                   <h5 class="mr-2 mb-0">3497843</h5>
                                </div>
                             </div>
-                            
-                        </div>
+                
                     </div>
-
-                </div>
-            </div>
-         
-         {/* Recent view pepole */}
-
-            <div className='row mt-4'>
-                <div className='col-12 bg-white border' style={{height:'120px'}}>
-                <h6 className='my-3'>RECENT COMMENTS : </h6>
-                <hr/>
-
 
                 </div>
             </div>
 
           {/* Recent communication between admin and Employee */}
 
-           <div className='row mt-4' style={{height:'300px'}}>
+           <div className='row my-4'>
                <div className='col-md-6 pl-md-0 p-1 mb-3'>
                    <div className='bg-white border p-3'>
                       <small>To</small>
@@ -87,7 +81,7 @@ function Home() {
                </div>
                <div className='col-md-6 pr-md-0 p-1 mb-3'>
                <div className='bg-white border p-3'>
-                      <small>To</small>
+                      <small>From</small>
                       <h6 className='my-3'>ADMIN : </h6>
                       <hr/> 
 
@@ -97,6 +91,17 @@ function Home() {
 
                </div>
            </div>
+
+           {/* Recent view pepole */}
+
+           <div className='row mt-4'>
+                <div className='col-12 bg-white border' style={{height:'120px'}}>
+                <h6 className='my-3'>RECENT COMMENTS : </h6>
+                <hr/>
+
+
+                </div>
+            </div>
 
             
 

@@ -120,14 +120,14 @@ function Sidenavbar() {
             </li>
           </NavLink>
           <NavLink
-            to="/user"
+            to="/setting"
             activeClassName="navbar__link--active"
             className="navbar__link"
           >
             <li className="nav-item">
               <a className="nav-link">
-                <i className="mdi mdi-account menu-icon"></i>
-                <span className="menu-title">User Pages</span>
+                <i className="mdi mdi-settings menu-icon"></i>
+                <span className="menu-title">Setting</span>
               </a>
             </li>
           </NavLink>

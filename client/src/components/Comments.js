@@ -2,7 +2,7 @@ import React from 'react'
 
 function Comments() {
     return (
-        <div className='container-fluid p-4'>
+        <div className='container-fluid p-4' style={{overflowY:'scroll',height:'100vh'}}>
             <div className='row'>
                 <div className='col-12 bg-white px-4 pb-4'>
                     <h5 className='my-4'>ALL COMMENTS</h5>

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class PostNew extends Component {
   render() {
     return (
-      <div className="container-fluid p-4">
+      <div className="container-fluid p-4" style={{overflowY:'scroll',height:'100vh'}}>
         <a href="/blog" className="btn btn-danger">New post</a>
         <div className="row">
           <div className="col-12 d-flex justify-content-between flex-wrap">
