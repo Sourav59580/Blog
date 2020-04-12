@@ -2,39 +2,102 @@ import React from 'react'
 
 function Home() {
     return (
-        <div className='container' style={{overflowY:'scroll',height:'100vh'}}>
-            <h1>Welcome to home page</h1>
-            <p>What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        <div className='container-fluid p-4' style={{overflowY:'scroll',height:'100vh'}}>
+            <div className='row'>
+                <div className='col-12'>
+                    <h2>Welcome back,</h2>
+                    <p>Your blog analytics dashboard.<span className='ml-4 text-secondary'><i class="mdi mdi-home menu-icon mr-1"></i>/ Dashboard /<span className='text-primary'> Analytics</span></span></p>
+                </div>
+            </div>
+            <div class="d-flex align-items-end flex-wrap">
+                <button className='btn btn-white btn-sm shadow-sm mr-3' type='button'>
+                    <i class="mdi mdi-download text-muted"></i>
+                </button>
+                <button className='btn btn-primary'>Download report</button>
+            </div>
+            <div className='row pt-4'>
+                <div className='col-12 bg-white border'>
+                    <h6 className='my-3'>Overview : </h6>
+                    <hr className='m-0'/>
+                    <div className='row'>
+                        <div className='col-md-6 d-flex'>
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            <div className='d-flex align-items-center   justify-content-center p-3 border-md-right'>
+                               <i class="mdi mdi-currency-usd mr-3 icon-lg text-danger"></i>
+                                <div class="d-flex flex-column justify-content-around">
+                                   <small class="mb-1 text-muted">Revenue</small>
+                                   <h5 class="mr-2 mb-0">$577545</h5>
+                                </div>  
+                            </div>
 
-What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            <div class="d-flex border-md-right         flex-grow-1 align-items-center justify-content-center p-3 item">
+                              <i class="mdi mdi-eye mr-3 icon-lg text-success"></i>
+                              <div class="d-flex flex-column justify-content-around">
+                                 <small class="mb-1 text-muted">Total views</small>
+                                 <h5 class="mr-2 mb-0">9833550</h5>
+                              </div>
+                            </div>                         
+                        </div>
+                        <div className='col-md-6 d-flex'>
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            <div className='d-flex align-items-center   justify-content-center p-3 border-md-right'>
+                               <i class="mdi mdi-download mr-3 icon-lg text-danger"></i>
+                                <div class="d-flex flex-column justify-content-around">
+                                   <small class="mb-1 text-muted">Downloads</small>
+                                   <h5 class="mr-2 mb-0">577545</h5>
+                                </div>  
+                            </div>
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            <div class="d-flex flex-grow-1 align-items-center justify-content-center p-3 item">
+                              <i class="mdi mdi-flag mr-3 icon-lg text-danger"></i>
+                              <div class="d-flex flex-column justify-content-around">
+                                 <small class="mb-1 text-muted">Flagged</small>
+                                  <h5 class="mr-2 mb-0">3497843</h5>
+                               </div>
+                            </div>
+                            
+                        </div>
+                    </div>
 
-What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+            </div>
+         
+         {/* Recent view pepole */}
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            <div className='row mt-4'>
+                <div className='col-12 bg-white border' style={{height:'120px'}}>
+                <h6 className='my-3'>RECENT COMMENTS : </h6>
+                <hr/>
 
 
-</p>
+                </div>
+            </div>
+
+          {/* Recent communication between admin and Employee */}
+
+           <div className='row mt-4' style={{height:'300px'}}>
+               <div className='col-6 bg-white border p-2'>
+                  <small>To</small>
+                  <h6 className='my-3'>ADMIN : </h6>
+                  <hr/> 
+
+
+                
+               </div>
+               <div className='col-1'></div>
+               <div className='col-5 bg-white border p-2'>
+                  <small>From</small>
+                  <h6 className='my-3'>ADMIN : </h6>
+                  <hr/>
+
+
+               </div>
+           </div>
+
+            
+
+
+
         </div>
     )
 }

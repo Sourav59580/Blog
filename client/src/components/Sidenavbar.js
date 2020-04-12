@@ -38,30 +38,51 @@ function Sidenavbar() {
             </a>
             <div className="collapse" id="ui-basic">
               <ul className="nav flex-column sub-menu">
-                <li className="nav-item">
-                  {" "}
-                  <a className="nav-link" href="pages/ui-features/buttons.html">
-                    New
-                  </a>
-                </li>
-                <li className="nav-item">
-                  {" "}
-                  <a
-                    className="nav-link"
-                    href="pages/ui-features/typography.html"
-                  >
-                    All(10)
-                  </a>
-                </li>
+                <NavLink
+                  to="/newpost"
+                  activeClassName="navbar__link--active"
+                  className="navbar__link px-3"
+                >
+                  <li className="nav-item">
+                    {" "}
+                    <a
+                      className="nav-link"
+                      href="pages/ui-features/buttons.html"
+                    >
+                      New
+                    </a>
+                  </li>
+                </NavLink>
+                <NavLink
+                  to="/allpost"
+                  activeClassName="navbar__link--active"
+                  className="navbar__link"
+                >
+                  <li className="nav-item px-3">
+                    {" "}
+                    <a
+                      className="nav-link"
+                      href="pages/ui-features/typography.html"
+                    >
+                      All
+                    </a>
+                  </li>
+                </NavLink>
               </ul>
             </div>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="pages/forms/basic_elements.html">
-              <i className="mdi mdi-chart-bar menu-icon"></i>
-              <span className="menu-title">Stats</span>
-            </a>
-          </li>
+          <NavLink
+            to="/stats"
+            activeClassName="navbar__link--active"
+            className="navbar__link"
+          >
+            <li className="nav-item">
+              <a className="nav-link" href="pages/forms/basic_elements.html">
+                <i className="mdi mdi-chart-bar menu-icon"></i>
+                <span className="menu-title">Stats</span>
+              </a>
+            </li>
+          </NavLink>
           <NavLink
             to="/comments"
             activeClassName="navbar__link--active"
@@ -86,24 +107,30 @@ function Sidenavbar() {
               </a>
             </li>
           </NavLink>
-          <li className="nav-item">
-            <a className="nav-link" href="pages/icons/mdi.html">
-              <i className="mdi mdi-format-paint menu-icon"></i>
-              <span className="menu-title">Themes</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link"
-              data-toggle="collapse"
-              href="#auth"
-              aria-expanded="false"
-              aria-controls="auth"
-            >
-              <i className="mdi mdi-account menu-icon"></i>
-              <span className="menu-title">User Pages</span>
-            </a>
-          </li>
+          <NavLink
+            to="/themes"
+            activeClassName="navbar__link--active"
+            className="navbar__link"
+          >
+            <li className="nav-item">
+              <a className="nav-link" href="pages/icons/mdi.html">
+                <i className="mdi mdi-format-paint menu-icon"></i>
+                <span className="menu-title">Themes</span>
+              </a>
+            </li>
+          </NavLink>
+          <NavLink
+            to="/user"
+            activeClassName="navbar__link--active"
+            className="navbar__link"
+          >
+            <li className="nav-item">
+              <a className="nav-link">
+                <i className="mdi mdi-account menu-icon"></i>
+                <span className="menu-title">User Pages</span>
+              </a>
+            </li>
+          </NavLink>
         </ul>
       </nav>
     </React.Fragment>
