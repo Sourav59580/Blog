@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div className="navbar-brand-wrapper d-flex justify-content-center">
         <div className="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100" style={{overflow:'hidden'}}>  
-          <a className="navbar-brand brand-logo" href="index.html"><img src="https://www.fivesquid.com/pics/t2/1466880336-56618-4-1.jpg" alt="logo" className='w-100 h-100'/></a>
+          <a className="navbar-brand brand-logo" href="/home"><img src="https://www.fivesquid.com/pics/t2/1466880336-56618-4-1.jpg" alt="logo" className='w-100 h-100'/></a>
           <a className="navbar-brand brand-logo-mini" href="index.html"><img src={logo} alt="logo" className='w-100'/></a>
           <button className="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span className="mdi mdi-sort-variant"></span>
