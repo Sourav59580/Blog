@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class AllPosts extends Component {
     render() {
         return (
-            <div className='container-fluid p-4'>
+            <div className='container-fluid p-4' style={{ overflowY: 'scroll', height: '100vh' }}>
                 <div className='row px-2 py-3'>
                     <div className='col-12 bg-white shadow-sm'>
                         <h5 className='m-3'>ALL POSTS</h5>

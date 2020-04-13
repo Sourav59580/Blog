@@ -26,32 +26,13 @@ function Setting() {
                 </div>
             </div>
 
-            <div className='d-flex flex-wrap justify-content-between'>
-                <div className='p-5 mr-4 d-flex flex-column justify-content-center align-items-center bg-white shadow-sm mb-5'>
-                    <h6>Followers</h6>
-                    <div style={{ width: '100px', height: '100px' }} className='rounded-circle bg-success text-light d-flex justify-content-center align-items-center'>
-                        <h2>120</h2>
-                    </div>
-
+            <div className='row'>
+                <div className='col-md-5 mb-3'>
+                    <div className='bg-white border shadow-sm' style={{height:'200px'}}></div>
                 </div>
-                <div className='p-5 mr-4 d-flex flex-column justify-content-center align-items-center bg-white shadow-sm mb-5'>
-                    <h6>Following</h6>
-                    <div style={{ width: '100px', height: '100px' }} className='rounded-circle bg-success text-light d-flex justify-content-center align-items-center'>
-                        <h2>120</h2>
-                    </div>
-
-                </div>
-                <div className='p-4 bg-white mb-5'>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-
-                </div>
-
+                <div className='col-md-7'>
+                <div className='bg-white border shadow-sm' style={{height:'200px'}}></div>
+                </div>          
             </div>
 
 

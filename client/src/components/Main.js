@@ -17,6 +17,7 @@ import PostNew from "./PostNew";
 import Blog from "./Blog";
 import AllPosts from './AllPosts'
 import Settings from './Setting'
+import Graph from "./Graph";
 export class Main extends Component {
   render() {
     return (
@@ -33,12 +34,6 @@ export class Main extends Component {
             <Route path="/home">
               <Home />
             </Route>
-            <Route path="/comments">
-              <Comments />
-            </Route>
-            <Route path="/earnings">
-              <Earnings />
-            </Route>
             <Route path="/newpost">
               <PostNew />
             </Route>
@@ -49,9 +44,20 @@ export class Main extends Component {
             <Route path="/allpost">
               <AllPosts />
             </Route>
+            <Route path="/comments">
+              <Comments />
+            </Route>
+            <Route path="/earnings">
+              <Earnings />
+            </Route>
+            
+            <Route path="/stats">
+              <Graph />
+            </Route>
             <Route path="/setting">
               <Settings />
             </Route>
+            
             
 
           </Switch>
