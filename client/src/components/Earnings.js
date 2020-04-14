@@ -23,7 +23,7 @@ function Earnings() {
                                     <tr>
                                         <td>1</td>
                                         <td>53275531</td>            
-                                        <td>5531</td>
+                                        <td>Video Converter App in Node.js...</td>
                                         
                                         <td> ₹ 800</td>
                                         <td><label class="badge badge-danger">Pending</label></td>
@@ -32,7 +32,7 @@ function Earnings() {
                                     <tr>
                                         <td>2</td>
                                         <td>53275532</td>                                       
-                                        <td>531</td>
+                                        <td>PDF Using ng2-pdf-viewer..</td>
                                         
                                         <td> ₹ 700</td>
                                         <td><label class="badge badge-warning">In progress</label></td>
@@ -41,7 +41,7 @@ function Earnings() {
                                     <tr>
                                         <td>3</td>
                                         <td>53275533</td>                                        
-                                        <td>4531</td>
+                                        <td>jQuery FullCalendar Integration... </td>
                                         
                                         <td> ₹ 2000</td>
                                         <td><label class="badge badge-info">Fixed</label></td>
@@ -50,7 +50,7 @@ function Earnings() {
                                     <tr>
                                         <td>4</td>
                                         <td>53275534</td>                                        
-                                        <td>3531</td>
+                                        <td> jsPDF Autotable Documentation...</td>
                                         
                                         <td> ₹ 500</td>
                                         <td><label class="badge badge-success">Completed</label></td>
@@ -59,7 +59,7 @@ function Earnings() {
                                     <tr>
                                         <td>5</td>
                                         <td>53275535</td>                                        
-                                        <td>531</td>
+                                        <td>React Hooks Simple Calculator....</td>
                                         
                                         <td> ₹ 1120</td>
                                         <td><label class="badge badge-warning">In progress</label></td>
