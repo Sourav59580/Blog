@@ -23,7 +23,7 @@ function Comments() {
                                             <div class="d-flex w-100 justify-content-between">
                                                 <div className='d-flex justify-content-center          align-items-center mb-1'>
                                                     <div style={{ width: '40px', height: '40px' }} className='mr-2 rounded-circle shadow-sm'>
-                                                        <img src='https://bramdejager.files.wordpress.com/2019/05/bramdejager-600x600.png?w=300' className='w-100' />
+                                                        <img src='https://bramdejager.files.wordpress.com/2019/05/bramdejager-600x600.png?w=300' className='w-100' alt='public' />
                                                     </div>
                                                     <h6 class="mb-1">James</h6>
                                                 </div>
@@ -40,7 +40,7 @@ function Comments() {
                                             <div class="d-flex w-100 justify-content-between">
                                                 <div className='d-flex justify-content-center          align-items-center mb-1'>
                                                     <div style={{ width: '40px', height: '40px' }} className='mr-2 rounded-circle shadow-sm'>
-                                                        <img src='https://bramdejager.files.wordpress.com/2019/05/bramdejager-600x600.png?w=300' className='w-100' />
+                                                        <img src='https://bramdejager.files.wordpress.com/2019/05/bramdejager-600x600.png?w=300' className='w-100' alt='public' />
                                                     </div>
                                                     <h6 class="mb-1">James</h6>
                                                 </div>

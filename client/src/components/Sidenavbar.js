@@ -1,9 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
+  NavLink
 } from "react-router-dom";
 import "./css/style.css";
 import "./css/materialdesignicons.min.css";
@@ -125,7 +122,7 @@ function Sidenavbar() {
             className="navbar__link"
           >
             <li className="nav-item">
-              <a className="nav-link">
+              <a className="nav-link" href='/setting'>
                 <i className="mdi mdi-settings menu-icon"></i>
                 <span className="menu-title">Setting</span>
               </a>

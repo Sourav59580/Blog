@@ -8,7 +8,7 @@ function Navbar() {
             <div className="navbar-brand-wrapper d-flex justify-content-center">
         <div className="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100" style={{overflow:'hidden'}}>  
           <a className="navbar-brand brand-logo" href="/home"><img src="https://www.fivesquid.com/pics/t2/1466880336-56618-4-1.jpg" alt="logo" className='w-100 h-100'/></a>
-          <a className="navbar-brand brand-logo-mini" href="index.html"><img src={logo} alt="logo" className='w-100'/></a>
+          <a className="navbar-brand brand-logo-mini" href="/home"><img src={logo} alt="logo" className='w-100'/></a>
           <button className="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span className="mdi mdi-sort-variant"></span>
           </button>
@@ -122,16 +122,16 @@ function Navbar() {
             </div>
           </li>
           <li className="nav-item nav-profile dropdown">
-            <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+            <a className="nav-link dropdown-toggle"  data-toggle="dropdown" id="profileDropdown">
               <img src="https://www.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg" alt="profile"/>
               <span className="nav-profile-name">Sourav</span>
             </a>
             <div className="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
-              <a className="dropdown-item">
+              <a className="dropdown-item" href='/setting'>
                 <i className="mdi mdi-settings text-primary"></i>
                 Settings
               </a>
-              <a className="dropdown-item">
+              <a className="dropdown-item" href='/logout'>
                 <i className="mdi mdi-logout text-primary"></i>
                 Logout
               </a>

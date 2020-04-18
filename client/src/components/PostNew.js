@@ -42,7 +42,7 @@ export class PostNew extends Component {
                  <div className='mt-3'>
                      <p>UI Display</p>
                      <div>
-                         <a href="#">Edit</a> | <a href="#">Preview</a> | <a href="#">Delete</a>
+                         <a href="/edit">Edit</a> | <a href="/preview">Preview</a> | <a href="/delete">Delete</a>
                      </div>
                  </div>
                  <div className='d-flex justify-content-between mt-3 flex-wrap'>

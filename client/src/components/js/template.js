@@ -1,4 +1,3 @@
-import { jQuery } from "jquery";
 import $ from "jquery"
 $(document).ready(function(){
     var body = $('body');

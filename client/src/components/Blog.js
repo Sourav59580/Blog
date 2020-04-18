@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { EditorState, convertToRaw } from "draft-js";
+import { EditorState } from "draft-js";
 import { Editor } from "react-draft-wysiwyg";
 import "../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
-import draftToHtml from "draftjs-to-html";
-import htmlToDraft from "html-to-draftjs";
+//import draftToHtml from "draftjs-to-html";
+//import htmlToDraft from "html-to-draftjs";
 
 export class Blog extends Component {
     constructor(){
